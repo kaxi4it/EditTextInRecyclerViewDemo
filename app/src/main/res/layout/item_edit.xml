@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll"
+    android:background="#DDDDDD"
+    >
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            tools:text="item0" />
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="100dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:background="#00DDDD"
+            />
+</LinearLayout>
